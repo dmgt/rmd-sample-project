@@ -1,0 +1,43 @@
+---
+title: "Start_Analysis"
+author: "Dana"
+date: "January 3, 2019"
+output: github_document
+---
+
+Hi! I am starting an experiment
+
+```{r setup, include=FALSE}
+# This is a way to set default settings for your whole documents
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# My title
+
+## Section 1
+
+### Sub-section
+
+```{r, include = FALSE}
+# Idea for Dana
+```
+
+
+#### Another subsection
+
+HERE IS A COMMENT
+
+You can write notes here:
+
+- First, I tried this
+- Then I looked up this link: [Yihui's blog](https://yihui.name/en/)
+
+
+```{r include=FALSE}
+head(cars)
+
+```
+
+```{r, echo = TRUE}
+plot(cars)
+```
