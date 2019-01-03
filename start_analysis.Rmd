@@ -2,10 +2,10 @@
 title: "Start_Analysis"
 author: "Dana"
 date: "January 3, 2019"
-output: github_document
+output: word_document
 ---
 
-Hi! I am starting an experiment
+Hi! I am starting an experiment. It is Thursday.
 
 ```{r setup, include=FALSE}
 # This is a way to set default settings for your whole documents
@@ -31,6 +31,8 @@ You can write notes here:
 
 - First, I tried this
 - Then I looked up this link: [Yihui's blog](https://yihui.name/en/)
+
+
 
 
 ```{r include=FALSE}
